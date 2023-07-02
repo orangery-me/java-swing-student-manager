@@ -474,21 +474,6 @@ public class MenuView extends JFrame {
 		}
 
 		this.model.setConList(conList);
-		// ArrayList ds = new ArrayList();
-		// try {
-		// 	this.model.setFileName(file.getAbsolutePath());
-		// 	FileInputStream fis = new FileInputStream(file);
-		// 	ObjectInputStream ois = new ObjectInputStream(fis);
-		// 	Contestant ts = null;
-		// 	while((ts = (Contestant) ois.readObject())!=null) {
-		// 		ds.add(ts);
-		// 	}
-		// 	ois.close();
-		// } catch (Exception e) {
-		// 	System.out.println(e.getMessage());
-		// }
-		// this.model.setConList(ds);
-
 	}
 
     public void openFileAction() {
